@@ -1,19 +1,26 @@
 ## Hi there!👋 
+
 My portfolio is currently under active development, including several interesting projects. These include historical stock and income data analysis with dashboard visualization, US real estate sales analysis, data publishing from Watson Studio, and more. With each new module, I add new projects to demonstrate my development in the field.
+
 
 ### Additional:
 
-#### 1. Applied Data Science
-This project contains work related to the Applied Data Science module, including:
-- 8 lab projects covering topics like data wrangling, EDA, SQL, interactive dashboards, and machine learning.
-- A presentation summarizing the results and insights.
 
-#### [View Applied Data Science project here](https://github.com/HannaHrekova/Coursera_AI/tree/Applied_Data_Science)
+#### 1. K-pop News and Releases Agent (Dialogflow & Langchain)
 
-#### 2. Building a Regression Model in Keras
-The project consists of four tasks, each completed in a separate Jupiter Notebook.
+This **personal pet project** features an AI assistant, specializing in K-pop news and music releases. It's built using Dialogflow ES for natural language understanding and a Langchain-powered Python backend for advanced AI reasoning. The agent leverages CohereLabs/c4ai-command-r-v01 LLM and integrates with web search (DuckDuckGo) and YouTube Data API to provide up-to-date information. It's deployed as a webhook on render.com.
 
-#### [View Building a Regression Model in Keras project here](https://github.com/HannaHrekova/Coursera_AI/tree/Building_a_Regression_Model_in_Keras)
+#### [View K-pop News and Releases Agent here](https://github.com/HannaHrekova/k-pop_agent/tree/main)
+
+
+#### 2. Alfred — AI Multi-Tool Assistant (LangGraph Agent)
+
+Alfred is an AI assistant built using LangGraph and the CohereLabs/c4ai-command-r-v01 model.
+It combines multiple tools (web search, weather, guest info, etc.) and supports conversational memory.
+The agent was developed as part of the Hugging Face Agents Course and deployed with Gradio on Hugging Face Spaces.
+
+#### [View Agent Alfred here](https://github.com/HannaHrekova/Coursera_AI/tree/Agent_Alfred)
+
 
 #### 3. AI Capstone Project with Deep Learning
 This project consists of various tasks related to deep learning, data loading, and model training using PyTorch and pretrained models. 
@@ -21,12 +28,19 @@ Some tasks were completed in skillsnetwork environment, and others in Google Col
 
 #### [View AI Capstone Project with Deep Learning here](https://github.com/HannaHrekova/Coursera_AI/tree/AI_Capstone_Project_with_Deep_Learning)
 
-#### 4. Alfred — AI Multi-Tool Assistant (LangGraph Agent)
 
-Alfred is an AI assistant built using LangGraph and the CohereLabs/c4ai-command-r-v01 model.
-It combines multiple tools (web search, weather, guest info, etc.) and supports conversational memory.
-The agent was developed as part of the Hugging Face Agents Course and deployed with Gradio on Hugging Face Spaces.
+#### 4. Building a Regression Model in Keras
+The project consists of four tasks, each completed in a separate Jupiter Notebook.
 
-#### [View Agent Alfred here](https://github.com/HannaHrekova/Coursera_AI/tree/Agent_Alfred)
+#### [View Building a Regression Model in Keras project here](https://github.com/HannaHrekova/Coursera_AI/tree/Building_a_Regression_Model_in_Keras)
+
+
+#### 5. Applied Data Science
+This project contains work related to the Applied Data Science module, including:
+- 8 lab projects covering topics like data wrangling, EDA, SQL, interactive dashboards, and machine learning.
+- A presentation summarizing the results and insights.
+
+#### [View Applied Data Science project here](https://github.com/HannaHrekova/Coursera_AI/tree/Applied_Data_Science)
+
 
 ## Glory to Ukraine 🇺🇦
