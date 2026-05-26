@@ -10,7 +10,7 @@ My portfolio is currently under active development, including several interestin
 
 This project was developed as an engineering solution for a technical challenge within the "Grow your business with Google Cloud: The Era of AI Agents" program, processing a realistic IT-corpus from DOU.ua. It features a robust Python-based data pipeline that leverages gemini-3-flash-preview with advanced reasoning capabilities (thinking_config). To bypass strict API rate limits and avoid data loss, the pipeline implements optimized batch chunking (20 rows per batch), an automated retry mechanism with exponential backoff for handling APIError (like 429 limits), and an on-the-fly text-level CSV structural validator to repair broken LLM outputs before saving.
 
-#### [View Intelligent RAG Agent here]([https://github.com/HannaHrekova/k-pop_agent/tree/main](https://github.com/HannaHrekova/Intelligent_RAG_Agent/tree/main))
+#### [View Intelligent RAG Agent here](https://github.com/HannaHrekova/Intelligent_RAG_Agent/tree/main)
 
 
 #### 2. K-pop News and Releases Agent (Dialogflow & Langchain)
