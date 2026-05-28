@@ -649,4 +649,3 @@ Colab notebook detected. To show errors in colab notebook, set debug=True in lau
 
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)
 
-Exported with [runcell](https://www.runcell.dev/tool/ipynb-to-html) — convert notebooks to HTML or PDF anytime at runcell.dev. 
