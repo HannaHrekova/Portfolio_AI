@@ -29,7 +29,7 @@ This **personal pet project** features an AI assistant, specializing in K-pop ne
 
 #### 4. Alfred — AI Multi-Tool Assistant (LangGraph Agent)
 
-Alfred is an AI assistant built using LangGraph and the CohereLabs/c4ai-command-r-v01 model.
+Alfred is an AI assistant built using LangGraph and the Cohere command-r-plus-08-2024 model.
 It combines multiple tools (web search, weather, guest info, etc.) and supports conversational memory.
 The agent was developed as part of the Hugging Face Agents Course and deployed with Gradio on Hugging Face Spaces.
 
