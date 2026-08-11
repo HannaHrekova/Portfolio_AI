@@ -5,11 +5,11 @@ langgraph
 langchain
 langchain-core
 langchain-community
-langchain-huggingface
+langchain-cohere
 huggingface_hub
 rank_bm25
 sentence-transformers
 scikit-learn
 duckduckgo-search
 python-dotenv
-
+ddgs
