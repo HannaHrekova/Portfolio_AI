@@ -1,61 +1,52 @@
-# 🧠 Alfred — AI Multi-Tool Assistant
+## Hi there!👋
 
-**Alfred** is a LangGraph-based agent using **Cohere command-r-plus-08-2024** to assist with multiple tasks involving guest information, web search, weather updates, statistics, and conversational memory.
+My portfolio is currently under active development, including several interesting projects. These include historical stock and income data analysis with dashboard visualization, US real estate sales analysis, data publishing from Watson Studio, and more. With each new module, I add new projects to demonstrate my development in the field.
 
-This project was developed as part of the [Hugging Face Agents Course](https://huggingface.co/learn/agents-course), Unit 3.
+### Featured AI & Data Science Projects:
 
----
+#### 1. Bumblebee AI — Multi-Agent Music Recommendation System (CrewAI & Gemini)
 
-## 💡 What Alfred Can Do
+This personal pet project features an intelligent multi-agent music recommendation application built with CrewAI, Google Gemini 3.1, and Gradio. Inspired by a personal signature habit of communicating through lyrics combined with the iconic Transformers' Bumblebee persona, the system analyzes complex user query intents (emotional states, metaphors, or specific lyrics) and responds exclusively with matching song quotes, high-resolution album artwork, and 30-second audio previews. The architecture orchestrates 4 specialized autonomous agents (Intent Router, Concept Extractor, Music Associator, and iTunes Link Specialist) supported by strict prompt guardrails for content safety and a custom dynamic iTunes Search API tool.
 
-| Capability                                                        | Example Prompt                                        |
-| ----------------------------------------------------------------- | ----------------------------------------------------- |
-| 🧑‍💼 Retrieve guest info using hybrid search (BM25 + embeddings)  | `Tell me about our guest Ada Lovelace`                |
-| 🌐 Search the web in real time (DuckDuckGo)                       | `Who is the current CEO of OpenAI?`                   |
-| 🌤️ Provide weather updates (mocked)                               | `What's the weather like in Tokyo today?`             |
-| 📈 Return statistics (mocked)                                     | `Give me the latest stats on AI adoption`             |
-| 🧠 Maintain memory across turns                                   | `Tell me again about the guest we mentioned earlier`  |
-| 🧩 Combine multiple tools                                         | `Tell me about Alan Turing and the weather in London` |
+#### [View Bumblebee AI here](https://github.com/HannaHrekova/Bumblebee_AI/tree/main)
 
----
+#### 2. Intelligent RAG Agent (Gemini API Resilient Batch Pipeline)
 
-## ⚙️ Tech Stack
+This project was developed as an engineering solution for a technical challenge within the "Grow your business with Google Cloud: The Era of AI Agents" program, processing a realistic IT-corpus from DOU.ua. It features a robust Python-based data pipeline that leverages gemini-3-flash-preview with advanced reasoning capabilities (thinking_config). To bypass strict API rate limits and avoid data loss, the pipeline implements optimized batch chunking (20 rows per batch), an automated retry mechanism with exponential backoff for handling APIError (like 429 limits), and an on-the-fly text-level CSV structural validator to repair broken LLM outputs before saving.
 
-  - LLM: Cohere `command-r-plus-08-2024` (via `langchain-cohere`)
-  - Frameworks: LangGraph, LangChain
-  - Tools:
-    - Guest Info Retrieval (BM25 + SentenceTransformer)
-    - DuckDuckGo Web Search
-    - YouTube QA Tool
-    - Weather Info (mocked)
-    - Statistics Tool (mocked)
-  - Interface: Gradio (`app.py`)
+#### [View Intelligent RAG Agent here](https://github.com/HannaHrekova/Intelligent_RAG_Agent/tree/main)
 
----
+#### 3. K-pop News and Releases Agent (Dialogflow & Langchain)
 
-## 📁 Project Structure
-```
-project/
-│
-├── .gitattributes         # Git settings
-├── README.md              # Project documentation
-├── app.py                 # Gradio interface
-├── requirements.txt       # Dependencies
-├── retriever.py           # Guest info + web search tools
-└── tools.py               # LangGraph agent setup
-```
+This **personal pet project** features an AI assistant, specializing in K-pop news and music releases. It's built using Dialogflow ES for natural language understanding and a Langchain-powered Python backend for advanced AI reasoning. The agent leverages CohereLabs/c4ai-command-r-v01 LLM and integrates with web search (DuckDuckGo) and YouTube Data API to provide up-to-date information. It's deployed as a webhook on render.com.
 
-## 🧪 Agent demonstration: Alfred answering a question about Marie Curie
+#### [View K-pop News and Releases Agent here](https://github.com/HannaHrekova/k-pop_agent/tree/main)
 
-![Alfred screenshot](screenshot_marie_curie.png)
+#### 4. Alfred — AI Multi-Tool Assistant (LangGraph Agent)
 
-## 🧪 Test Alfred Online
+Alfred is an AI assistant built using LangGraph and the Cohere command-r-plus-08-2024 model. It combines multiple tools (web search, weather, guest info, etc.) and supports conversational memory. The agent was developed as part of the Hugging Face Agents Course and deployed with Gradio on Hugging Face Spaces.
 
-You can test the agent directly in your browser without installing anything locally:
+#### [View Agent Alfred here](https://github.com/HannaHrekova/Portfolio_AI/tree/Agent_Alfred)
 
-👉 [Go to Hugging Face Space](https://huggingface.co/spaces/HannaHrekova/Agent_for_Guest_Stories)
+#### 5. AI Capstone Project with Deep Learning
 
-## Author
+This project consists of various tasks related to deep learning, data loading, and model training using PyTorch and pretrained models. Some tasks were completed in skillsnetwork environment, and others in Google Colab.
 
-Created by **Hanna Hrekova**, AI enthusiast and lifelong learner.  
-Built with ❤️ for the Hugging Face community.
+#### [View AI Capstone Project with Deep Learning here](https://github.com/HannaHrekova/Portfolio_AI/tree/AI_Capstone_Project_with_Deep_Learning)
+
+#### 6. Building a Regression Model in Keras
+
+The project consists of four tasks, each completed in a separate Jupiter Notebook.
+
+#### [View Building a Regression Model in Keras project here](https://github.com/HannaHrekova/Portfolio_AI/tree/Building_a_Regression_Model_in_Keras)
+
+#### 7. Applied Data Science
+
+This project contains work related to the Applied Data Science module, including:
+
+   - 8 lab projects covering topics like data wrangling, EDA, SQL, interactive dashboards, and machine learning.
+   - A presentation summarizing the results and insights.
+
+#### [View Applied Data Science project here](https://github.com/HannaHrekova/Portfolio_AI/tree/Applied_Data_Science)
+
+## Glory to Ukraine 🇺🇦
