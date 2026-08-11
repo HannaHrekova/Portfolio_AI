@@ -1,6 +1,6 @@
 # 🧠 Alfred — AI Multi-Tool Assistant
 
-**Alfred** is a LangGraph-based agent using **CohereLabs/c4ai-command-r-v01** to assist with multiple tasks involving guest information, web search, weather updates, statistics, and conversational memory.
+**Alfred** is a LangGraph-based agent using **Cohere command-r-plus-08-2024** to assist with multiple tasks involving guest information, web search, weather updates, statistics, and conversational memory.
 
 This project was developed as part of the [Hugging Face Agents Course](https://huggingface.co/learn/agents-course), Unit 3.
 
@@ -21,15 +21,15 @@ This project was developed as part of the [Hugging Face Agents Course](https://h
 
 ## ⚙️ Tech Stack
 
-    LLM: CohereLabs/c4ai-command-r-v01
-    Frameworks: LangGraph, LangChain
-    Tools:
-        Guest Info Retrieval (BM25 + SentenceTransformer)
-        DuckDuckGo Web Search
-        Youtube QA Tool
-        Weather Info (mocked)
-        Statistics Tool (mocked)
-    Interface: Gradio (app.py)
+  - LLM: Cohere `command-r-plus-08-2024` (via `langchain-cohere`)
+  - Frameworks: LangGraph, LangChain
+  - Tools:
+    - Guest Info Retrieval (BM25 + SentenceTransformer)
+    - DuckDuckGo Web Search
+    - YouTube QA Tool
+    - Weather Info (mocked)
+    - Statistics Tool (mocked)
+  - Interface: Gradio (`app.py`)
 
 ---
 
