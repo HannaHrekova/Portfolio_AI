@@ -6,7 +6,7 @@ My portfolio is currently under active development, including several interestin
 
 #### 1. Bumblebee AI — Multi-Agent Music Recommendation System (CrewAI & Gemini)
 
-This personal pet project features an intelligent multi-agent music recommendation application built with CrewAI, Google Gemini 3.1, and Gradio. Inspired by a personal signature habit of communicating through lyrics combined with the iconic Transformers' Bumblebee persona, the system analyzes complex user query intents (emotional states, metaphors, or specific lyrics) and responds exclusively with matching song quotes, high-resolution album artwork, and 30-second audio previews. The architecture orchestrates 4 specialized autonomous agents (Intent Router, Concept Extractor, Music Associator, and iTunes Link Specialist) supported by strict prompt guardrails for content safety and a custom dynamic iTunes Search API tool.
+This **personal pet project** features an intelligent multi-agent music recommendation application built with CrewAI, Google Gemini 3.1, and Gradio. Inspired by a personal signature habit of communicating through lyrics combined with the iconic Transformers' Bumblebee persona, the system analyzes complex user query intents (emotional states, metaphors, or specific lyrics) and responds exclusively with matching song quotes, high-resolution album artwork, and 30-second audio previews. The architecture orchestrates 4 specialized autonomous agents (Intent Router, Concept Extractor, Music Associator, and iTunes Link Specialist) supported by strict prompt guardrails for content safety and a custom dynamic iTunes Search API tool.
 
 #### [View Bumblebee AI here](https://github.com/HannaHrekova/Bumblebee_AI/tree/main)
 
@@ -18,7 +18,7 @@ This project was developed as an engineering solution for a technical challenge 
 
 #### 3. K-pop News and Releases Agent (Dialogflow & Langchain)
 
-This **personal pet project** features an AI assistant, specializing in K-pop news and music releases. It's built using Dialogflow ES for natural language understanding and a Langchain-powered Python backend for advanced AI reasoning. The agent leverages CohereLabs/c4ai-command-r-v01 LLM and integrates with web search (DuckDuckGo) and YouTube Data API to provide up-to-date information. It's deployed as a webhook on render.com.
+This **personal pet project** features an AI assistant, specializing in K-pop news and music releases. It's built using Dialogflow ES for natural language understanding and a Langchain-powered Python backend for advanced AI reasoning. The agent leverages Cohere command-r-plus-08-2024 model and integrates with web search (DuckDuckGo) and YouTube Data API to provide up-to-date information. It's deployed as a webhook on render.com.
 
 #### [View K-pop News and Releases Agent here](https://github.com/HannaHrekova/k-pop_agent/tree/main)
 
